@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Location — Andy's Barber Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Andy's Barber Shop</a>
+      <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Find Us</h1>
+    <p>123 Main Street, Yourtown — open Tue–Sat 9am–6pm</p>
+
+    <div class="map-wrap">
+      <iframe title="Map" src="https://www.google.com/maps?q=123+Main+Street+Yourtown&output=embed" loading="lazy"></iframe>
+    </div>
+
+    <h2>Hours</h2>
+    <ul>
+      <li>Tue–Fri: 9am–6pm</li>
+      <li>Sat: 9am–4pm</li>
+      <li>Sun–Mon: Closed</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year-location"></span> Andy's Barber Shop</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

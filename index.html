@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andy's Barber Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Andy's Barber Shop</a>
+      <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Classic Cuts, Local Vibes</h1>
+          <p>Friendly barbers, precision fades, and a great atmosphere — walk-ins welcome.</p>
+          <a class="btn" href="contact.html">Book a Visit</a>
+        </div>
+        <div class="hero-image" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="services container">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Haircut</h3>
+          <p>Classic and modern styles, tailored to you.</p>
+        </div>
+        <div class="card">
+          <h3>Beard Trim</h3>
+          <p>Precision shaping and straight-razor finish.</p>
+        </div>
+        <div class="card">
+          <h3>Kids</h3>
+          <p>Friendly, quick, and patient barbers for the little ones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="prices-preview container">
+      <h2>Popular Cuts</h2>
+      <ul class="price-list">
+        <li>Classic Cut <span>$25</span></li>
+        <li>Fade <span>$30</span></li>
+        <li>Beard Trim <span>$15</span></li>
+      </ul>
+      <a class="link" href="prices.html">See full price list</a>
+    </section>
+
+    <section class="location-preview container">
+      <h2>Visit Us</h2>
+      <p>123 Main Street, Yourtown — open Tue–Sat 9am–6pm</p>
+      <a class="link" href="location.html">Get directions</a>
+    </section>
+
+    <section class="reviews container" id="reviews">
+      <h2>Reviews</h2>
+      <div class="review-grid">
+        <blockquote class="review">
+          <p>Best cut I’ve had in years — friendly and fast.</p>
+          <cite>— Jamie R.</cite>
+        </blockquote>
+        <blockquote class="review">
+          <p>Great atmosphere and perfect fade every time.</p>
+          <cite>— Marcus D.</cite>
+        </blockquote>
+        <blockquote class="review">
+          <p>My kids actually look forward to coming here.</p>
+          <cite>— Lena S.</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Andy's Barber Shop — All rights reserved.</p>
+      <p class="small">Follow us: Instagram @andysbarbershop</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

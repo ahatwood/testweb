@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Andy's Barber Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Andy's Barber Shop</a>
+      <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>Questions, bookings, or general inquiries — drop us a message.</p>
+    <form id="contact-form" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <section class="contact-info">
+      <h2>Visit</h2>
+      <p>123 Main Street, Yourtown — Tue–Sat 9am–6pm</p>
+      <p>Phone: (555) 123-4567</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year-contact"></span> Andy's Barber Shop</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prices — Andy's Barber Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Andy's Barber Shop</a>
+      <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Price List</h1>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Classic Cut</h3>
+        <div class="price-image placeholder" aria-hidden="true"></div>
+        <p>$25 — Includes wash and styling.</p>
+      </div>
+      <div class="price-card">
+        <h3>Fade</h3>
+        <div class="price-image placeholder" aria-hidden="true"></div>
+        <p>$30 — Low, mid, or high fades.</p>
+      </div>
+      <div class="price-card">
+        <h3>Beard Trim</h3>
+        <div class="price-image placeholder" aria-hidden="true"></div>
+        <p>$15 — Shape and line-up with hot towel.</p>
+      </div>
+      <div class="price-card">
+        <h3>Kids</h3>
+        <img src="images/childrensHaircut.webp" alt="Children's haircut" class="price-image">
+        <p>$18 — For children under 12.</p>
+      </div>
+      <div class="price-card">
+        <h3>Seniors</h3>
+        <div class="price-image placeholder" aria-hidden="true"></div>
+        <p>$20 — Discounted rates available.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year-prices"></span> Andy's Barber Shop</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
